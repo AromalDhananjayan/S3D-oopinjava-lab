@@ -1,0 +1,19 @@
+public class Amstrong
+{
+	public static void main(String[] args) 
+	{
+        	int num=371, result=0, rem, temp;
+        	temp=num;
+        	while(num!=0)
+        	{
+            		rem=num%10;
+            		result=result+rem*rem*rem;
+            		num/=10;
+        	}
+
+	        if (temp==result)
+            	System.out.println(a+" is a amstrong");
+        	else
+            	System.out.println(a+" is not a amstrong");
+    	}
+}
